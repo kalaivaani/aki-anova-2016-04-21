@@ -4,3 +4,4 @@
 # biomarker data from Akihiro Nakamura
 
 ########################### load.R: load data ###############################
+markers <- read.csv("raw_data/marker_data.csv", stringsAsFactors=F)
